@@ -43,3 +43,15 @@
     height: 12px;
     width: 12px;
 }
+
+.ex-6-img:hover {
+    filter: grayscale();
+}
+
+.ex-7-img {
+    transition: filter 3s ease-in-out;
+}
+
+.ex-7-img:hover {
+    filter: grayscale() invert();
+}

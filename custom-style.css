@@ -106,3 +106,21 @@
         transform: rotate(0);
     }
 }
+
+.ex-12-top-white {
+    animation: move 2s linear infinite alternate;
+}
+
+.ex-12-bottom-white {
+    animation: move 2s linear infinite alternate-reverse;
+}
+
+@keyframes move {
+    0% {
+        left: 10%;
+    }
+
+    100% {
+        left: 60%;
+    }
+}

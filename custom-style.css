@@ -64,3 +64,13 @@
     filter: hue-rotate(90deg) blur(1px);
     border-radius: 10%;
 }
+
+.ex-9-img {
+    transition: filter 3s ease-in-out, border-radius 3s ease-in-out, transform 3s ease-in-out;
+}
+
+.ex-9-img:hover {
+    filter: hue-rotate(180deg) saturate(90%);
+    border-radius: 20%;
+    transform: scale(1.5, 1.5);
+}

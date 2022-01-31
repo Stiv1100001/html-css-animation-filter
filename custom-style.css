@@ -88,3 +88,21 @@
         transform: rotate(360deg);
     }
 }
+
+.ex-11-icon {
+    animation: rotate11 2s linear infinite;
+}
+
+@keyframes rotate11 {
+    0% {
+        transform: rotate(0);
+    }
+
+    75% {
+        transform: rotate(270deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}

@@ -55,3 +55,12 @@
 .ex-7-img:hover {
     filter: grayscale() invert();
 }
+
+.ex-8-img {
+    transition: filter 3s ease-in-out, border-radius 3s ease-in-out;
+}
+
+.ex-8-img:hover {
+    filter: hue-rotate(90deg) blur(1px);
+    border-radius: 10%;
+}
